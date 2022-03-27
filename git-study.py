@@ -5,3 +5,5 @@ print('dfkjkjfejd')
 
 print(65/15)
 
+def filter:
+  pass
