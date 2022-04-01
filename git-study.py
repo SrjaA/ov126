@@ -5,5 +5,3 @@ print('dfkjkjfejd')
 
 print(65/15)
 
-def github:
-    pass
