@@ -11,4 +11,4 @@ def delet_na_delet(nmbr):
 c = tuple(map(int, input('Enter your numbers with space:\n').split()))
 
 print(c)
-print(delet_na_delet(c))
+print(f"\033[{'34m'}{delet_na_delet(c)}\033[00m")
