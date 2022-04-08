@@ -1,4 +1,5 @@
-def func_ti_on(x=45):
+def func_ti_on(x):
+
     if x <= -2:
         y = 1 - (x + 2) ** 2
     elif -2 < x <= 2:
@@ -7,5 +8,5 @@ def func_ti_on(x=45):
         y = (x - 2) ** 2 + 1
     return y
 
-
-print(func_ti_on())
+l=int(input())
+print(func_ti_on(l))
