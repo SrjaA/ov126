@@ -4,11 +4,11 @@ cakes = {'Наполон': [['масло', 'мука', 'сахар'], 6.5, 2010]
 
 
 def cake_market(**cake):
-    print(f'Здрасцте. Сегодня в наличии:\n {" ".join(map(str, cakes.keys()))} ')
+    print('Здрасцте. Сегодня в наличии:\n' + f'{" ".join(map(str, cakes.keys()))}'.center(80))
 
     buy = input('Какое торт Вас интересует: ')
     look = input('Что-то хотели бы уточнить (1-описание, 2- цена, 3-количество)\n'
-                 ' или покупаем(Enter)? ')
+                 'или покупаем(Enter)? ')
     for k, v in cake.items():
         if buy == k:
             if look == 'описание' or look == '1':
