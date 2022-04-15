@@ -2,6 +2,7 @@ import random
 
 
 class Dog:
+    '''About dogs'''
     jump_of_day = 0
     run_of_day = 0
 
@@ -33,6 +34,7 @@ class Dog:
     def bark(self):
         print(f'\033[1m\033[32m{self.name} доволен (или недоволен) и гавкает V●ᴥ●V\033[0m')
 
+#14_2
     @classmethod
     def change_name(cls, nane, obj):
         print(f'{obj.name} стал {nane}')
