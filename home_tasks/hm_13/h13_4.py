@@ -6,7 +6,8 @@
 import random
 
 
-def random_list(a,b,c):
-    return random.sample(range(b, c), a)
+def random_list(a, b, c):
+    return list(random.sample(range(b, c), a))
 
-print(random_list(*list(map(lambda i:int(i), input('enter amount and min/max numbers:\t').split()))))
+
+print(random_list(*map(lambda i: int(i), input('enter amount and min/max numbers:\t').split())))
