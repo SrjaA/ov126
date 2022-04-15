@@ -8,5 +8,4 @@ def func_ti_on(x):
         y = (x - 2) ** 2 + 1
     return y
 
-l=int(input())
-print(func_ti_on(l))
+print(func_ti_on(int(input())))

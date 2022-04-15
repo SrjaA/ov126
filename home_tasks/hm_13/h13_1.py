@@ -14,4 +14,4 @@ def list_numbers(nmbr=n):
     return tuple(a)
 
 nmb = tuple(map(int, input('Enter your numbers with space:\n').split()))
-print(f"\033[1m\033[32m{list_numbers(nmb)}\033[00m")
+print(f"\033[1m\033[32m{list_numbers(nmb)}")
